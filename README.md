@@ -1,5 +1,5 @@
 # ShellDump
-Collection of old web shells I gathered between 12/17/2014 - 11/18/2014.<br>
+Collection of old web shells I gathered between 12/17/2014 - 11/18/2015.<br>
 I have barely reviewed the code so I apologize if there's anything nasty in them, lot of team/hacker signatures scattered throughout the code though which is always fun to see.<br>
 
 Some interesting snippets:
@@ -77,22 +77,6 @@ $shellColor = '#990000'; // Shell Color
 #	    6\11\2010                    #
 #------------------------------------#
 ?>
-<?php
-if($_GET['id']== 'logout')
-{
-	Logout();
-}
-# ---------------------------------------#
-#                SuiCide                 #
-#----------------------------------------#
-if($_GET['id'] == 100)
-{
-	echo "<body onload='Suicide();'>";
-}
-if($_GET['id'] == 'Delete')
-{
-	Suicide();
-}
 ```
 ```php
 if($_REQUEST['do']=='about'){
